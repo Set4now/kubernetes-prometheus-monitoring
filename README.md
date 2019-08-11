@@ -44,7 +44,7 @@ kubectl create -f prometheus-service.yaml -n monitoring
 
 ```
 Go to prometheus webpage to query for metrices.
-http://<NodeIP>:<Nodeport>/graphs
+http://{<NodeIP>}:{<Nodeport>}/graphs
 
 
 Deploy kube state metris 
