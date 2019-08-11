@@ -6,6 +6,10 @@ This solution is enable monitoring in kubernetes cluster with graphana dashboard
 
 Prometheus is an open source monitoring framework. Explaining Prometheus is out of the scope of this article. In this article, I will guide you to setup Prometheus on a Kubernetes cluster and collect node, pods and services metrics automatically using Kubernetes service discovery configurations.
 
+```
+git clone https://github.com/Set4now/kubernetes-prometheus-monitoring.git
+
+```
 
 ```	
 kubectl create namespace monitoring 
